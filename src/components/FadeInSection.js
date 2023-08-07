@@ -3,7 +3,7 @@ import React from "react";
 export default function FadeInSection(props) {
   const [isVisible, setVisible] = React.useState(false);
   const domRef = React.useRef();
-  React.useEffect(() => {
+  React.useLayoutEffect(() => {
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
