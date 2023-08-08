@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Projects.css";
-import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
+import FolderOpenIcon from '@mui/icons-material/FolderOpen';
 import GitHubIcon from "@material-ui/icons/GitHub";
 import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
 import FadeInSection from "./FadeInSection";
@@ -115,9 +115,9 @@ class Projects extends React.Component {
                 <li className="projects-card">
                   <div className="card-header">
                     <div className="folder-icon">
-                      <FolderOpenRoundedIcon
+                      <FolderOpenIcon
                         style={{ fontSize: 35 }}
-                      ></FolderOpenRoundedIcon>
+                      ></FolderOpenIcon>
                     </div>
                     <ExternalLinks
                       githubLink={projects[key]["link"]}

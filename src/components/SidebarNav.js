@@ -1,9 +1,9 @@
 import React from "react";
 import { Sidenav } from "rsuite";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from "@material-ui/icons/GitHub";
+import EmailIcon from '@mui/icons-material/Email';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 import "../styles/SidebarNav.css";
 import "react-typist/dist/Typist.css";
@@ -58,7 +58,7 @@ class SidebarNav extends React.Component {
         )}
         <div className="sidebar-logos" href="/">
           <a href="mailto:doublejvargas@gmail.com">
-            <EmailRoundedIcon style={{ fontSize: 20 }}></EmailRoundedIcon>
+            <EmailIcon style={{ fontSize: 20 }}></EmailIcon>
           </a>
           <a href="https://github.com/doublejvargas">
             <GitHubIcon style={{ fontSize: 19 }}></GitHubIcon>

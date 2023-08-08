@@ -3,7 +3,8 @@ import React from "react";
 import "../styles/Intro.css";
 import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
-import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
+import SendIcon from '@mui/icons-material/Send';
+import DescriptionIcon from '@mui/icons-material/Description';
 import FadeInSection from "./FadeInSection";
 //import FractalTree from "./FractalTree";
 //import FractalSpirograph from "./FractalSpirograph";
@@ -48,8 +49,15 @@ class Intro extends React.Component {
             href="mailto:doublejvargas@gmail.com"
             className="intro-contact"
           >
-            <EmailRoundedIcon></EmailRoundedIcon>
-            {"  " + "Let's talk!"}
+            <SendIcon></SendIcon>
+            {"  " + " Let's talk!"}
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1yKNoo5SNoMTPknB7WBWwtAMNiKL0MXav/view"
+            className="intro-contact"
+          >
+            <DescriptionIcon></DescriptionIcon>
+            {"  " + "Resume"}
           </a>
         </FadeInSection>
       </div>
