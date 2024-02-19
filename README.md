@@ -20,3 +20,10 @@
    ```sh
    yarn run start
    ```
+## 🚀 deploy
+
+1. generate full static build and deploy!
+
+   ```sh
+   yarn run deploy
+   ```
