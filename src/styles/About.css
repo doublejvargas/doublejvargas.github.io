@@ -9,13 +9,14 @@
   padding-left: 15%;
   padding-right: 25%;
   min-height: 60vh;
+  padding-top: 20px;
 }
 
 .about-description ul {
   padding-top: 20px;
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(2, minmax(150px, 10px));
+  grid-template-columns: repeat(2, minmax(250px, 15px));
 }
 
 .about-description li {

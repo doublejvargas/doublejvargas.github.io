@@ -24,13 +24,13 @@
   position: relative;
   height: 100%;
   padding: 2rem 1.75rem;
-  background-color: var(--lightest-slate);
+  background-color: rgba(72, 63, 51, 0.863);
   border-radius: 16px;
 }
 
 .projects-card:hover {
   transform: translateY(-7px);
-  background-color: var(--lightest-slate);
+  background-color: rgba(72, 63, 51, 0.959);;
 }
 
 .card-header {
@@ -60,7 +60,8 @@
 
 .card-title {
   font-family: "NTR", sans-serif;
-  color: var(--sunset);
+  /* color: var(--light-reseda-green); */
+  color: var(--lightest-slate);
   font-size: 24px;
   font-weight: bold;
 }
@@ -118,15 +119,17 @@
 .carousel-caption p {
   font-family: "NTR", sans-serif;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   color: var(--light-navy);
+  /*background-color: rgba(255, 252, 252, 0.173);*/
 }
 
 .carousel-caption p.techStack {
   font-family: "NTR", sans-serif;
-  font-size: 14px;
+  font-size: 17.5px;
   font-weight: bold;
   color: var(--light-navy);
+  /*background-color: rgba(255, 252, 252, 0.273);*/
 }
 
 .carousel-indicators .active {

@@ -53,7 +53,31 @@ class Projects extends React.Component {
       }
     };
     const projects = {
-      "olcNes": {
+      "Vulkan Rendering Engine (in development)": {
+        desc:
+          "A 3D rendering engine capable of rendering any .obj model and useful for game-making.",
+        techStack: "C++, Vulkan API, GLFW, tinyobjloader, GLSL Shading Language",
+        link:
+          "https://github.com/doublejvargas/Silk" //TODO add images demo
+          //open: ""
+      },
+      "DirectX11 Rendering Engine (in development)": {
+        desc:
+          "A 3D rendering engine capable of rendering any .obj model and useful for game-making.",
+        techStack: "C++, DirectX11 API, Win32 API, Microsoft WRL, HLSL Shading Language",
+        link:
+          "https://github.com/doublejvargas/Snow" //TODO add images demo
+          //open: ""
+      },
+      "Java OpenGL Rendering Engine": {
+        desc:
+          "A 3D rendering engine capable of rendering any .obj model and useful for game-making.",
+        techStack: "Java, Lightweight Java Gaming Library (LWJGL)",
+        link:
+          "https://github.com/doublejvargas/3D-Renderer" //TODO add images demo
+          //open: ""
+      },
+      "olcNes (in development)": {
         desc:
           "Emulating the system architecture of a NES! (in progress).",
         techStack: "C++, olcPixelGameEngine",
@@ -66,14 +90,6 @@ class Projects extends React.Component {
         techStack: "Javascript, HTML / CSS",
         link: "https://github.com/doublejvargas/Active-Teaming-System" //TODO add images demo
         //open: ""
-      },
-      "3D Renderer": {
-        desc:
-          "A 3D rendering engine capable of rendering any .obj model and useful for game-making.",
-        techStack: "Java, Lightweight Java Gaming Library (LWJGL)",
-        link:
-          "https://github.com/doublejvargas/3D-Renderer" //TODO add images demo
-          //open: ""
       }
     };
 

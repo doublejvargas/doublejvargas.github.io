@@ -19,10 +19,10 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a <b>C++ Developer Intern</b> at
-        <a href="https://www.wwiionline.com/about-the-game-team#the-team"> Cornered Rat Software</a>, working on their title,
-        World War II Online. I am part of the team of developers that focuses on the client-side
-        of the game, implementing new game features or improving already existing ones.
+        In my last role as a <b>Volunteer C++ Developer</b> at
+        <a href="https://www.wwiionline.com/about-the-game-team#the-team"> Cornered Rat Software</a>, I worked on their title:
+        World War II Online. I was part of the team of developers that focused on the client-side
+        of the game, implementing new game features and improving already existing ones.
       </p>
     );
     const two = (
@@ -43,12 +43,12 @@ class About extends React.Component {
     const desc_items = [one, two];
 
     const tech_stack = [
-      "C++",
-      "OpenGL",
-      "Visual Studio",
-      "Unreal Engine 5",
+      "C / C++",
       "Java",
-      "MySQL"
+      "OpenGL / Vulkan / DirectX11",
+      "Unreal Engine 4 & 5",
+      "Visual Studio",
+      "MySQL / PostgreSQL"
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);

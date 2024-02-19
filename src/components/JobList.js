@@ -84,7 +84,7 @@ const JobList = () => {
   const experienceItems = {
     "Cornered Rat Software": {
       jobTitle: "Game Developer Intern @",
-      duration: "NOV 2021 - PRESENT",
+      duration: "NOV 2021 - NOV 2023",
       desc: [
         "Refactored game's rendering system from rendering to a window to rendering to a texture and facilitated game's transition to Unreal Engine 5.",
         "Improved multiple gameplay features, such as: camera control while riding vehicles, camera functionality while flying a plane and despawning mechanics.",
