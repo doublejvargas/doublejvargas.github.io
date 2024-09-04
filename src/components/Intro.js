@@ -40,20 +40,20 @@ class Intro extends React.Component {
           </span>
         </Typist>
         <FadeInSection>
-          <div className="intro-subtitle">I like 3D graphics and video games.</div>
+          <div className="intro-subtitle">I like c++ and 3D graphics.</div>
           <div className="intro-desc">
-            I'm a software engineer based in Dayton, Ohio who is interested in
-            graphics programming, game engines and game development. I also like C++.
+            I'm a software engineer based in Ohio who is interested in C++ and
+            graphics programming. I also like game development.
           </div>
           <a
-            href="mailto:doublejvargas@gmail.com"
+            href="mailto:vargaspool.js@gmail.com"
             className="intro-contact"
           >
             <SendIcon></SendIcon>
             {"  " + " Let's talk!"}
           </a>
           <a
-            href="https://drive.google.com/file/d/1ZZlEU-IbbHqe8IUiM0EIIxv92NkllBdo/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1O53mMaVKETF8_WYF9uy4MOS5rH_uE7W9/view?usp=sharing"
             className="intro-contact"
           >
             <DescriptionIcon></DescriptionIcon>

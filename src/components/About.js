@@ -22,12 +22,12 @@ class About extends React.Component {
         In my last role as a <b>Volunteer C++ Developer</b> at
         <a href="https://www.wwiionline.com/about-the-game-team#the-team"> Cornered Rat Software</a>, I worked on their title:
         World War II Online. I was part of the team of developers that focused on the client-side
-        of the game, implementing new game features and improving already existing ones.
+        of the game, implementing new game features and improving already-existing ones.
       </p>
     );
     const two = (
       <p>
-        Outside of work, I like to play video games, experiment with graphics programming,
+        Outside of work, I like to play Valorant, work out,
         and play the guitar.
       </p>
     );
@@ -35,7 +35,7 @@ class About extends React.Component {
       <p>
         <b>Want to chat?</b> Shoot me a message at{" "}
         <a href="mailto:doublejvargas@gmail.com">
-          doublejvargas@gmail.com
+          vargaspool.j@gmail.com
         </a>{" "}
         and let's talk.
       </p>
@@ -43,12 +43,12 @@ class About extends React.Component {
     const desc_items = [one, two];
 
     const tech_stack = [
-      "C / C++",
+      "C++",
       "Java",
-      "OpenGL / Vulkan / DirectX11",
+      "OpenGL / SDL2",
       "Unreal Engine 4 & 5",
       "Visual Studio",
-      "MySQL / PostgreSQL"
+      "MySQL"
     ];
 
     const tech_items = tech_stack.map(stack => <li>{stack}</li>);
@@ -62,7 +62,7 @@ class About extends React.Component {
           <div className="about-content">
             <div className="about-description">
               {[one]}
-              {"Here are some technologies I currently work with:"}
+              {"Here are some technologies I worked with:"}
               <ul className="tech-stack">
                 {tech_stack.map(function (tech_item, i) {
                   return (

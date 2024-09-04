@@ -24,8 +24,17 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
+      Raytracer: {
+        title: "Multi-threaded Ray Tracer",
+        desc:
+          "A simple ray tracer capable of rendering spheres and planes with lights and shadows. Did I mention it was multi-threaded?",
+        techStack: "C++, SDL2, glm",
+        link: "https://github.com/doublejvargas/RayTracer",
+        open: "https://youtu.be/RTMG8hdW4A0",
+        image: "/assets/z-thumbnail.png"
+      },
       Survival: {
-        title: "survival",
+        title: "Survival",
         desc:
           "A 2D game where you are stranded in the wild, and your only hope is to survive long enough to be rescued!",
         techStack: "C++, OpenGL",
@@ -34,16 +43,16 @@ class Projects extends React.Component {
         image: "/assets/survival_resized.png"
       },
       Skins: {
-        title: "skins",
+        title: "OpenGL Rendering Engine",
         desc:
-          "A replication of your typical FPS weapon customization menu.",
-        techStack: "C++, OpenGL, Blender, ImGUI",
+          "A simple replication of your typical FPS weapon customization menu.",
+        techStack: "C++, OpenGL, GLFW, ImGUI",
         link: "https://github.com/doublejvargas/Skins",
         open: "https://youtu.be/O1ruVOhpR78",
         image: "/assets/skins_resized.png"
       },
       "Kinnect": {
-        title: "kinnect",
+        title: "Kinnect",
         desc:
           "A multi-player game meant to connect you with others and solve puzzles",
         techStack: "REACT Native, REACT.JS, Expo CLI, Firebase",
@@ -53,7 +62,7 @@ class Projects extends React.Component {
       }
     };
     const projects = {
-      "Vulkan Rendering Engine (in development)": {
+      "Vulkan Rendering Engine": {
         desc:
           "A 3D rendering engine capable of rendering any .obj model and useful for game-making.",
         techStack: "C++, Vulkan API, GLFW, tinyobjloader, GLSL Shading Language",
@@ -61,7 +70,7 @@ class Projects extends React.Component {
           "https://github.com/doublejvargas/Silk" //TODO add images demo
           //open: ""
       },
-      "DirectX11 Rendering Engine (in development)": {
+      "DirectX11 Rendering Engine": {
         desc:
           "A 3D rendering engine capable of rendering any .obj model and useful for game-making.",
         techStack: "C++, DirectX11 API, Win32 API, Microsoft WRL, HLSL Shading Language",
@@ -77,7 +86,7 @@ class Projects extends React.Component {
           "https://github.com/doublejvargas/3D-Renderer" //TODO add images demo
           //open: ""
       },
-      "olcNes (in development)": {
+      "olcNes": {
         desc:
           "Emulating the system architecture of a NES! (in progress).",
         techStack: "C++, olcPixelGameEngine",

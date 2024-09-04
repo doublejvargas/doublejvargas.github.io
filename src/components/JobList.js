@@ -83,16 +83,24 @@ const JobList = () => {
 
   const experienceItems = {
     "Cornered Rat Software": {
-      jobTitle: "Game Developer Intern @",
+      jobTitle: "Volunteer C++ Developer @",
       duration: "NOV 2021 - NOV 2023",
       desc: [
-        "Refactored game's rendering system from rendering to a window to rendering to a texture and facilitated game's transition to Unreal Engine 5.",
-        "Improved multiple gameplay features, such as: camera control while riding vehicles, camera functionality while flying a plane and despawning mechanics.",
-        "Fixed UI and HUD bugs that affected voice communication display, weapon HUD information and settings menu selection and saving of preferences."
+        "Refactored game's rendering system to render to a texture that could be exported, facilitating the game's transition to Unreal Engine 5.",
+        "Improved multiple gameplay features in C++, such as: camera control while riding vehicles, camera functionality while flying a plane and despawning mechanisms.",
+        "Collaborated with senior engineers and product management, following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations."
+      ]
+    },
+    "Outlier.ai": {
+      jobTitle: "Advanced AI Coder @",
+      duration: "FEB 2024 - PRESENT",
+      desc: [
+        "Wrote complex SQL prompts and queries that improved the correctness and accuracy of LLM’s ability to translate a natural language user request to a SQL query.",
+        "Identified LLM deviations by crafting complex Python problems that caused proper model failure, allowing for engineers from a different team to target and train model areas, resulting in improved accuracy and correctness."
       ]
     },
     "Games for Love": {
-      jobTitle: "Game Tools Intern @",
+      jobTitle: "Game Tools Engineer Intern @",
       duration: "JUNE 2020 - DEC 2021",
       desc: [
         "Implemented logic for level transitions in Unity and C#, allowing artist to integrate cool animations for scene changes between levels.",
