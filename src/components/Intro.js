@@ -40,10 +40,10 @@ class Intro extends React.Component {
           </span>
         </Typist>
         <FadeInSection>
-          <div className="intro-subtitle">I like c++ and 3D graphics.</div>
+          <div className="intro-subtitle">I like c++ and 3d graphics.</div>
           <div className="intro-desc">
-            I'm a software engineer based in Ohio who is interested in C++ and
-            graphics programming. I also like game development.
+            i'm a software engineer based in Ohio who is interested in c++ and
+            graphics programming. i also like game development.
           </div>
           <a
             href="mailto:vargaspool.js@gmail.com"
@@ -53,7 +53,7 @@ class Intro extends React.Component {
             {"  " + " Let's talk!"}
           </a>
           <a
-            href="https://drive.google.com/file/d/1O53mMaVKETF8_WYF9uy4MOS5rH_uE7W9/view?usp=sharing"
+            href="https://drive.google.com/file/d/1eY9gUDqXs-vvL-HiC2nleGNc7ZI5_Nd7/view"
             className="intro-contact"
           >
             <DescriptionIcon></DescriptionIcon>
